@@ -1,7 +1,37 @@
-*{
+ /* *{
 	outline:1px solid rgba(255,0,0,0.3);
+} */
+body{
+	font-family: Helvetica;
+}
+img{
+	max-width: 100%;
+}
+.encabezado{
+	font-size: 11px;
 }
 .logo{
-	float:left;
+
 	width: 300px;
+}
+.relativo {
+	position:relative;
+}
+.moviet{
+	position: absolute;
+	top:50%;
+}
+.altura1{
+	height: 50px;
+}
+div.banner div{
+	height: 400px;
+}
+div.banner div:first-child {
+	background-image:url("img/banner.jpg");
+	background-size: cover;
+}
+div.banner :last-child {
+	background-color: #383837;
+	color:#fff;
 }
