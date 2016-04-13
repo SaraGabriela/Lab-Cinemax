@@ -1,4 +1,4 @@
- /* *{
+ /**{
 	outline:1px solid rgba(255,0,0,0.3);
 } */
 body{
@@ -24,14 +24,45 @@ img{
 .altura1{
 	height: 50px;
 }
-div.banner div{
+
+div.banner > div{
 	height: 400px;
 }
-div.banner div:first-child {
+
+.banner-imagen {
 	background-image:url("img/banner.jpg");
 	background-size: cover;
 }
+.all-age{
+	border: 2px solid green;
+	border-radius:5px;
+	padding: 10px;
+	color:green; 
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.gris-claro{
+		color: #f2f2f2;
+}
+
 div.banner :last-child {
 	background-color: #383837;
-	color:#fff;
+	padding-left: 0px;
+}
+.texto-peli div{
+	display:inline-block;
+}
+.texto-peli{
+	font-size: 0.7em;
+	margin:0px;
+}
+
+table tr td:first-child{
+	padding-right: 70px;
+}	
+table{
+	margin-bottom: 15px;
+}
+.block {
+	display:block;
 }
