@@ -1,4 +1,4 @@
- /**{
+/* *{
 	outline:1px solid rgba(255,0,0,0.3);
 } */
 body{
@@ -7,24 +7,21 @@ body{
 img{
 	max-width: 100%;
 }
+
 .encabezado{
 	font-size: 11px;
 }
 .logo{
 
-	width: 300px;
+	max-width: 100%;
 }
 .relativo {
 	position:relative;
 }
 .moviet{
-	position: absolute;
 	top:50%;
+	display: inline-block;
 }
-.altura1{
-	height: 50px;
-}
-
 div.banner > div{
 	height: 400px;
 }
@@ -45,7 +42,7 @@ div.banner > div{
 		color: #f2f2f2;
 }
 
-div.banner :last-child {
+.cuadro-gris {
 	background-color: #383837;
 	padding-left: 0px;
 }
@@ -66,3 +63,55 @@ table{
 .block {
 	display:block;
 }
+.boton{
+	width: 200px;
+	height: 50px;
+	margin-top:20px;
+	border-radius: 7px;
+	padding-left: 0px;
+	border:0px;
+}
+.watch{
+	background-color:#DFB733;
+}
+.watch:hover{
+	background-color:#f2f2f2;
+	color:#DFB733;
+}
+button.boton:active{
+top:3px;
+}
+.ticket{
+	background-color:#BB7B29;
+}
+.ticket:hover{
+	background-color:#f2f2f2;
+	color:#BB7B29;
+}
+button.boton div {
+	display: inline-block;
+	margin:15px 3px;
+	position: relative;
+}
+.cartelera{
+	background-color:#DFB636;
+	min-height: 260px;
+}
+.lista-sin-estilo{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+}
+.lista-cartelera{ width:90%; margin:auto;}
+ul.lista-cartelera li {
+	display: inline-block;
+	position: relative;
+	max-width: 150px;
+	max-height: 200px;
+	overflow: hidden;
+	margin-right: 20px;
+	margin-top: 30px;
+
+}
+
+

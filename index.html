@@ -4,32 +4,30 @@
 	<meta charset="UTF-8">
 	<title>Cinemax</title>
 	<link href="css/grid-system.css" type="text/css" rel="stylesheet" />
-	<link href="css/style.css" type="text/css" rel="stylesheet" />
 	<link href="css/utilities.css" type="text/css" rel="stylesheet" />
+	<link href="css/style.css" type="text/css" rel="stylesheet" />
 	<link href="font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet" />
 </head>
 <body >
-<div class="container">
+<div class="container-fluid">
 <header>
 <div class="row encabezado">
-<div class="col-3">
-	<img src="img/logo.png" class="logo altura1"/>
+<div class="col-8">
+	<img src="img/logo.png" class="logo"/>
+<div class="moviet relativo"><p class="text-gray">MOVIE THEATER</p></div>
 </div>
-<div class="col-6 relativo altura1 ">
-<p class="text-gray moviet ">MOVIE THEATER</p>
-</div>
-<div class="col-3">
+<div class="col-4">
 <form>
 	<input type="text" placeholder="Buscar"></input>
-	<span class="fa-search"></span>
+	<span class="fa fa-search"></span>
 </form>
 </div>
 </div>
 </header>
+<section> <!--Banner Big Hero-->
 <div class="row banner">
 <div class="col-8 banner-imagen"></div>
-<div class="col-4">
-
+<div class="col-4 cuadro-gris">
 	<h1 class="brd-b text-center mgt-7 gris-claro">BIG HERO 6</h1>
 <div class="texto-peli">
 <div class="all-age"><p>All age</p></div>
@@ -50,7 +48,37 @@
 </table>
 <div><p class="gris-claro">The special bond that develops between plus sized inflatable robot Baymax, and a prodigy Hiro Hamada, who team up with a group of friends to form a band of high tech heroes.</p></div>
 </div>
+ <button class="watch boton gris-claro relativo">
+	<div><span class="fa fa-youtube-play"></span></div><div><h4>WATCH TRAILER</h4></div>
+</button>    
+ <button class="ticket boton gris-claro relativo">
+	<div><span class="fa fa-ticket"></span></div><div><h4>BOOK TICKET</h4></div>
+</button>
 </div>
-
+</div>
+</section> <!--Cierra Banner Big Hero-->
+<section>  <!--Empieza Cartelera-->
+	<div class="row cartelera">
+		<ul class="lista-sin-estilo lista-cartelera">
+			<li><img src="img/imagen1.jpg"></li>
+			<li><img src="img/imagen2.jpg"></li>
+			<li><img src="img/imagen3.jpg"></li>
+			<li><img src="img/imagen4.jpg"></li>
+			<li><img src="img/imagen5.jpg"></li>
+			<li><img src="img/imagen6.jpg"></li>
+		</ul>
+	</div>
+</section> <!--Cierra Cartelera-->
+<section> <!--Empieza Video-->
+	<div class="row video">
+	<iframe width="100%" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" frameborder="0" allowfullscreen></iframe>
+	</div>
+</section> <!--Cierra Video-->
+<section> <!--Empiezan noticias-->
+	<div class="row">
+	<div class="col-6"></div>
+	<div class="col-6"></div>
+	</div>
+</section> <!--Terminan noticias-->
 </body>
 </html>
