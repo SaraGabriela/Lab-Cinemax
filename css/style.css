@@ -7,21 +7,32 @@ body{
 img{
 	max-width: 100%;
 }
-
+.fondo-gris{
+	background-color: #F3F3F3;
+}
+.fondo-blanco{
+	background-color: #fff;
+}
 .encabezado{
 	font-size: 11px;
+	text-align: center;
 }
 .logo{
-
-	max-width: 100%;
+height: 50px;
+width:55%;
+float: left;
 }
 .relativo {
 	position:relative;
 }
+.inline_block{display: inline-block;}
 .moviet{
-	top:50%;
-	display: inline-block;
+	top:20px;
 }
+input:focus{outline: none; border:none;}
+input{border:none; position: absolute; left: 8px; top:25%;}
+.busca{border:1px solid #D1D1D1; max-width: 150px;float: right; margin-right: 10px;overflow: hidden;margin-top: 5px; position: relative; height: 30px;}
+.busca span{right: 5px; position: absolute; top:25%; color: #D1D1D1;}
 div.banner > div{
 	height: 400px;
 }
@@ -91,7 +102,6 @@ top:3px;
 button.boton div {
 	display: inline-block;
 	margin:15px 3px;
-	position: relative;
 }
 .cartelera{
 	background-color:#DFB636;
@@ -153,3 +163,6 @@ h2{
 	overflow: hidden;
 }
 .especiales {text-align: center; }
+.pie{color:#D1D1D1;  margin-top: 30px;}
+.pie ul li {margin-bottom: 20px;}
+.pie p { font-size: 12px;}
